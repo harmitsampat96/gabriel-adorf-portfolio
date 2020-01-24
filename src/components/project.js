@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import media from 'utils/media-queries'
 
-import { fontSize } from 'styles/theme'
+import { color, fontSize } from 'styles/theme'
 
 import Logo from 'components/projectlogo'
 
@@ -30,6 +30,8 @@ const Description = styled.div`
 `
 
 const Title = styled.h3`
+  color: white;
+  
   font-size: ${fontSize.f6};
   font-weight: 700;
   ${media.lg`
@@ -43,13 +45,14 @@ const Title = styled.h3`
 `
 
 const Abstract = styled.div`
+  color: white;
   margin-bottom: 16px;
 `
 
 function Project(props) {
   return (
     <ProjectWrapper>
-      <Logo>{props.logo}</Logo>
+      <Logo src={props.logo}></Logo>
       <Description>
         <Title>{props.title}</Title>
         <Abstract>{props.abstract}</Abstract>

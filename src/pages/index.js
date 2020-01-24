@@ -15,14 +15,14 @@ export default class App extends React.Component {
       <GlobalWrapper>
         {/* <Breakpoints /> */}
         <Hero />
-        <Section id={'about'}>
-          <About />
-        </Section>
         <Section id={'projects'}>
           <Work />
         </Section>
         <Section>
           <Writing />
+        </Section>
+        <Section id={'about'}>
+          <About />
         </Section>
         <Footer />
       </GlobalWrapper>

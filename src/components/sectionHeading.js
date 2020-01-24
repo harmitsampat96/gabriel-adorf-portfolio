@@ -6,6 +6,7 @@ import { color, fontSize } from 'styles/theme'
 const H2 = styled.h2`
   border-top: 2px solid ${color.grey900};
   display: inline-block;
+  font-family: IBMPlexMono;
   font-size: ${fontSize.f5};
   color: ${color.grey900};
   letter-spacing: 5px;

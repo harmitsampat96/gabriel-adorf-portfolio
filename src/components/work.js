@@ -10,41 +10,51 @@ import PalettteAppLogo from 'img/palettteapplogo'
 import LifeTimeLogo from 'img/lifetimelogo'
 import BamLogo from 'img/bamlogo'
 
-const LifeTimeLink = <Link to="/lifetime">Read More</Link>
-const PalettteLink = <Link to="/palettteapp">Read More</Link>
-const KellerkindLink = <Link to="/kellerkind">Read More</Link>
-const BamLink = <Link to="/bam">Read More</Link>
+import GoCanvasLogo from 'img/gocanvas.png'
+import iqSolnLogo from 'img/iqsoln.jpg'
+import MixTapeLogo from 'img/spotify.jpg'
+import KJSCELiveLogo from 'img/kjscelive.png'
+
+const LifeTimeLink = <Link to="/lifetime">Read More →</Link>
+const PalettteLink = <Link to="/palettteapp">Read More →</Link>
+const KellerkindLink = <Link to="/kellerkind">Read More →</Link>
+const BamLink = <Link to="/bam">Read More →</Link>
+
+const GoCanvasLink = <a href="#">Coming Soon!</a>
+const IQSolnLink = <a href="#">Coming Soon!</a>
+const MixTapeLink = <a href="https://medium.com/p/check-out-my-mixtape-a7bfbcc98860?source=email-97ffaeda2728--writer.postDistributed&sk=b93c9e9ebc60f8f360e8f0b892adcb30">Read More →</a>
+const KJSCELiveLink = <a href="https://drive.google.com/file/d/19rzaiyQ0BlkqEv9AqLth8jIjzfXQbaya/view">Read More →</a>
 
 function Work() {
   return (
     <TwoColumns
       wide
-      leftColumn={<SectionHeading>Work</SectionHeading>}
+      leftColumn={<SectionHeading>W0rk</SectionHeading>}
       rightColumn={
         <Fragment>
           <Project
-            logo={LifeTimeLogo()}
-            title="LifeTime"
-            abstract="Secure data exchange infrastructure for healthcare."
-            link={LifeTimeLink}
+            logo={GoCanvasLogo}
+            title="GoCanvas"
+            abstract="Workflow & Dispatch interface usability testing."
+            link={GoCanvasLink}
           />
           <Project
-            logo={PalettteAppLogo()}
-            title="Palettte App"
-            abstract="An app that allows you to build, analyze and edit smooth color palettes."
-            link={PalettteLink}
+            logo={iqSolnLogo}
+            title="iQ Solutions"
+            abstract="Information Resource Center Modernization."
+            link={IQSolnLink}
           />
           <Project
-            logo={KellerkindLogo()}
-            title="Kellerkind"
-            abstract="A social event company organizing two festivals for electronic music and art with ~20.000 yearly visitors north of munich."
-            link={KellerkindLink}
+            logo={MixTapeLogo}
+            title="Mix Tape • Spotify Data Visualization"
+            abstract="Analyzing music playlists & preferences."
+            link={MixTapeLink}
           />
           <Project
-            logo={BamLogo()}
-            title="Bäm"
-            abstract="Climbing products and other stuff that give you the extra bäm effect."
-            link={BamLink}
+            logo={KJSCELiveLogo}
+            title="KJSCE Live"
+            abstract="Official college mobile application for K.J. Somaiya College of Engineering (KJSCE)."
+            link={KJSCELiveLink}
           />
         </Fragment>
       }

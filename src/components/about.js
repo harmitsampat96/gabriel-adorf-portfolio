@@ -23,30 +23,31 @@ const Big = styled.span`
   `}
 `
 
+const Button = styled.a`
+  font-size: ${fontSize.f4};
+`
+
 function About() {
   return (
     <TwoColumns
-      leftColumn={<SectionHeading>About</SectionHeading>}
+      leftColumn={<SectionHeading>Ab0ut</SectionHeading>}
       rightColumn={
         <Fragment>
-          <Big>
-            Hi. I'm Gabriel, a UI and UX designer living in&nbsp;Berlin. I bring
-            ideas to life with design and&nbsp;code.
-          </Big>
           <p>
-            In my work I strive to optimize the aesthetic value and usability of
-            products without losing sight of the technical challenges and
-            limitations.
+            I am a graduate student at the <b>University of Maryland</b> pursuing my Master's
+            in <b>Human-Computer Interaction</b>. Coming from a computer science & engineering background,
+            I believe that I can offer a unique skill set and help create richer experiences by using the
+            technological capabilities at its fullest. My primary research interests are in
+            data visualization and creating novel user interfaces.
           </p>
+          
           <p>
-            Currently I'm designing the future of medical infrastructure at{' '}
-            <Link to="/lifetime">LifeTime</Link> and hosting electronic music
-            festivals with <Link to="/kellerkind">Kellerkind</Link>.
+            I'm now looking for <b>UX Design & Research</b> internship opportunities - Summer 2020. 
+            If you'd like to get in touch or see more of my work please contact me at <Link to="mailto:harmitsampat@gmail.com">harmitsampat@gmail.com</Link>. Also, feel
+            free to connect with me on <Link to="https://www.linkedin.com/in/harmitsampat96/">LinkedIn</Link>.
           </p>
-          <p style={{ marginBottom: 0 }}>
-            Outside of work I'm passionate about my family, climbing and riding
-            all kinds of boards on roads, water and snow.
-          </p>
+          <Button href="https://drive.google.com/file/d/1V3uvj7lw2Q2WQ3QdJvw17tEud4A0K-oa/view?usp=sharing">🗎 View Resume</Button>
+          
         </Fragment>
       }
     />
@@ -54,3 +55,14 @@ function About() {
 }
 
 export default About
+
+/*
+<p>
+            Currently I'm designing the future of medical infrastructure at{' '}
+            <Link to="/lifetime">LifeTime</Link> and hosting electronic music
+            festivals with <Link to="/kellerkind">Kellerkind</Link>.
+          </p>
+<p style={{ marginBottom: 0 }}>
+            Outside of work I'm passionate about my family, climbing and riding
+            all kinds of boards on roads, water and snow.
+          </p>*/

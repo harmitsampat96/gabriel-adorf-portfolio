@@ -26,7 +26,7 @@ class GlobalWrapper extends React.Component {
       <Fragment>
         <Helmet>
           <html lang="en" />
-          <title>Gabriel Adorf</title>
+          <title>Harmit Sampat</title>
           <meta name="description" content="Gabriel Adorf's projects" />
           <meta
             name="keywords"
@@ -41,25 +41,7 @@ class GlobalWrapper extends React.Component {
           <meta property="og:url" content="https://gabrieladorf.com" />
           <meta property="og:title" content="Gabriel Adorf" />
 
-          <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/apple-touch-icon.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/favicon-32x32.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/favicon-16x16.png"
-          />
-          <link rel="manifest" href="/manifest.json" />
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+          // 
           <meta name="theme-color" content="#ffffff" />
         </Helmet>
         <GlobalStyle displayOutlines={this.state.displayOutlines} />

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.32291in" height="1.22917in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1323 1229"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:none}
+    .fil2 {fill:#00FFD9}
+    .fil0 {fill:#8F0029}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M397 2l269 0 0 1225 -269 0 0 -1225z"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2839780918304">
+   <g>
+    <rect class="fil0" transform="matrix(0.0508874 -0.0508874 0.101775 0.101775 797.612 177.268)" width="3438" height="3438"/>
+    <rect class="fil0" transform="matrix(0.0508874 -0.0508874 0.101775 0.101775 447.76 876.971)" width="3438" height="3438"/>
+    <rect class="fil0" transform="matrix(0.0508874 -0.0508874 0.20355 0.20355 447.76 352.194)" width="3438" height="3438"/>
+   </g>
+   <polygon class="fil1" points="397,2 666,2 666,1227 397,1227 "/>
+   <g style="clip-path:url(#id0)">
+    <g>
+     <g>
+      <rect class="fil2" transform="matrix(0.0508874 -0.0508874 0.101775 0.101775 797.612 177.268)" width="3438" height="3438"/>
+      <rect class="fil2" transform="matrix(0.0508874 -0.0508874 0.101775 0.101775 447.76 876.971)" width="3438" height="3438"/>
+      <rect class="fil2" transform="matrix(0.0508874 -0.0508874 0.20355 0.20355 447.76 352.194)" width="3438" height="3438"/>
+     </g>
+    </g>
+   </g>
+   <polygon class="fil3" points="397,2 666,2 666,1227 397,1227 "/>
+   <rect class="fil1" x="1" y="2" width="269" height="1224"/>
+  </g>
+ </g>
+</svg>

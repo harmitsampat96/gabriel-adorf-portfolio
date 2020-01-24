@@ -5,9 +5,10 @@ import Project from 'components/project'
 import SectionHeading from 'components/sectionHeading'
 
 import ScenographicsLogo from 'img/scenographicslogo'
+import MapsLogo from 'img/maps.png'
 
-const ScenographicsLink = (
-  <a href="http://medium.com/scenographics">Read More on Medium ↗</a>
+const MapsLink = (
+  <a href="https://medium.com/p/how-well-do-we-perceive-maps-1a761ed4898c?source=email-97ffaeda2728--writer.postDistributed&sk=8c6e73e6c9aa2de74362b71bb32ba5a1">Read More on Medium ↗</a>
 )
 
 function Writing() {
@@ -17,10 +18,10 @@ function Writing() {
       leftColumn={<SectionHeading>Writing</SectionHeading>}
       rightColumn={
         <Project
-          logo={ScenographicsLogo()}
-          title="Scenographics"
-          abstract="Interview series with creative people within the festival scene. (German only)"
-          link={ScenographicsLink}
+          logo={MapsLogo}
+          title="How Well Do We Perceive Maps?"
+          abstract="Spatial representations can help us perceive geographical phenomena."
+          link={MapsLink}
         />
       }
     />

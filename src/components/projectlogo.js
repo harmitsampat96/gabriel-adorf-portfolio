@@ -2,10 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import media from 'utils/media-queries'
 
+import { color } from 'styles/theme'
+
 const size = 150
 
 const Image = styled.div`
-  background: white;
+  background: ${color.red500};
   flex: 0 0 ${size}px;
   height: ${size}px;
   margin-right: 40px;
@@ -19,19 +21,31 @@ const Image = styled.div`
   `}
 `
 
+const Logo = styled.img`
+  max-height: 120px;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border-radius: 100px;
+`
+
 function ProjectLogo(props) {
   return (
     <Image>
-      <svg
+      <Logo src={props.src} alt={props.alt} />
+    </Image>
+  )
+}
+
+export default ProjectLogo
+
+/*<svg
         width={size}
         height={size}
         viewBox="0 0 120 120"
         xmlns="http://www.w3.org/2000/svg"
       >
         {props.children}
-      </svg>
-    </Image>
-  )
-}
-
-export default ProjectLogo
+      </svg>*/

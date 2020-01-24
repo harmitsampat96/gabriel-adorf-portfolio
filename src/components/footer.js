@@ -7,6 +7,7 @@ import { fontSize } from 'styles/theme'
 import Section from 'components/section'
 
 const FooterText = styled.div`
+  font-family: IBMPlexMono;
   text-align: center;
   font-size: ${fontSize.f2};
   ${media.lg`
@@ -24,8 +25,7 @@ function Footer() {
       <FooterText>
         This page is open source, Check it out on&nbsp;
         <a href="https://github.com/gabdorf/gabriel-adorf-portfolio">Github</a>
-        <br />© 2020 Gabriel Adorf&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-        <a href="/imprint">Imprint</a>
+        <br />© 2020 Harmit Sampat
       </FooterText>
     </Section>
   )
