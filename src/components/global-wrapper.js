@@ -27,19 +27,16 @@ class GlobalWrapper extends React.Component {
         <Helmet>
           <html lang="en" />
           <title>Harmit Sampat</title>
-          <meta name="description" content="Gabriel Adorf's projects" />
+          <meta name="description" content="Harmit's UX Design Portfolio" />
           <meta
             name="keywords"
-            content="design, ux, ui, product, graphic, health, climbing, app, interface, experience, festival, techno, code"
+            content="design, ux, ui, product, app, interface, experience, code"
           />
-          <meta
-            property="og:image"
-            content="https://www.gabrieladorf.com/static/kellerkindCover-14f87246d1614ff1cf339940bdc58186.jpg"
-          />
-          <meta property="og:description" content="Gabriel Adorf's projects" />
+          
+          <meta property="og:description" content="Harmit's UX Design Portfolio" />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://gabrieladorf.com" />
-          <meta property="og:title" content="Gabriel Adorf" />
+          <meta property="og:url" content="https://harmitsampat.com" />
+          <meta property="og:title" content="Harmit Sampat" />
 
           // 
           <meta name="theme-color" content="#ffffff" />
