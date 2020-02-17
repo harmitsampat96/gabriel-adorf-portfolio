@@ -1,4 +1,5 @@
 import React from 'react'
+import {Helmet} from 'react-helmet';
 import styled from 'styled-components'
 
 import { color, fontSize } from 'styles/theme'
@@ -103,6 +104,9 @@ const Img = styled.img`
 function LifeTime() {
   return (
     <GlobalWrapper>
+      <Helmet>
+        <style>{'body { background-color: white; color: black; } h2, h3 { color: black; }'}</style>
+      </Helmet>
       <Header title="LifeTime" />
       <CoverImage src={CoverSrc} focusX={'35%'} focusY={'50%'} />
       <Section>

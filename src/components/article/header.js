@@ -8,18 +8,55 @@ import { color } from 'styles/theme'
 import Header from 'components/header'
 import Icon from 'components/icons'
 
-const TitleBar = styled.div``
+import HSLogo from 'img/brand_lt.svg'
+
+const TitleBar = styled.div`
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 0 0 auto;
+  ${media.lg`
+  height: ${props => (props.article ? '64px' : '')};
+  `}
+  ${media.sm`
+    display: ${props => (props.article ? 'flex' : 'none')};
+  `};
+  z-index: 10;
+  height: ${props => (props.article ? '112px' : '')};
+  ${media.xs`
+    display: none;
+    height: 112px;
+  `}
+`
+
+const TitleBar_sm = styled.div`
+  display: none;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 0 0 auto;
+  ${media.lg`
+    display: none;
+    height: ${props => (props.article ? '64px' : '')};
+  `}
+  ${media.sm`
+    display: ${props => (props.article ? 'none' : 'block')};
+  `};
+  z-index: 10;
+  height: ${props => (props.article ? '112px' : '')};
+  ${media.xs`
+    display: block;
+  `}
+`
 
 const BackArrow = styled(Link)`
-  position: absolute;
-  left: 10px;
+  float: left;
+  padding: 20px 0px;
+  position: relative;
   transform: rotate(90deg);
   max-width: 64px;
   max-height: 64px;
   color: ${color.grey900};
-  ${media.sm`
-    display: none;
-  `};
+  
   &:visited {
     color: ${color.grey900};
   }
@@ -32,22 +69,57 @@ const BackArrow = styled(Link)`
 `
 
 const Title = styled.div`
-  width: 100%;
+  padding: 5px 20px;
   text-align: center;
+  float: left;
+  font-weight: 400;
+`
+
+const LogoWrapper = styled.div`
+  padding: 24px 0 24px 24px;
+  ${media.sm`
+    padding: ${props => (props.article ? '24px 0 24px 24px' : '24px 0 0 0')};
+  `};
+  ${media.xs`
+    padding: 24px 0 0 0;
+  `}
+`
+
+export const SvgWrapper = styled.div`
+  float: left;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 24px;
+  min-height: 24px;
+  color: inherit;
+  background: inherit;
 `
 
 function ArticleHeader(props) {
   return (
     <Fragment>
-      <Header article />
+      
       <TitleBar>
+        <LogoWrapper>
+          <SvgWrapper href="/">
+            <a href="/"><img src={HSLogo} height="88px" alt="Logo" /></a>
+          </SvgWrapper>
+          <Title>
+            <h2> • {props.title}</h2>
+          </Title>
+        </LogoWrapper>
+      </TitleBar>
+      <TitleBar_sm id="foo">
         <BackArrow to="/#projects">
-          <Icon glyph="arrow" size={64} />
+          <Icon glyph="arrow" size={32} />
         </BackArrow>
         <Title>
-          <h1>{props.title}</h1>
+          <h2 id="white">{props.title}</h2>
         </Title>
-      </TitleBar>
+      </TitleBar_sm>
+
     </Fragment>
   )
 }
