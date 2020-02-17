@@ -1,9 +1,7 @@
-# gabriel-adorf-portfolio
-Gabriel Adorf's personal website
+# harmit-sampat-portfolio
+Hi, I'm Harmit and this is my personal website & portfolio. I'm a Master's in Human-Computer Interaction student looking for opportunities in UX & Product Design. Feel free to reach out to me if you have any comments or suggestions.
 
-Check it out here: [gabrieladorf.com](https://gabrieladorf.com)
+--
 
-Feel free to build your own portfolio by forking and customizing this page.
 Built with [gatsby](https://github.com/gatsbyjs/gatsby) and [styled components](https://github.com/styled-components/styled-components).
-
-DM me on [twitter](https://twitter.com/gabdorf) if you have any questions.
+Forked and customized from [this page](https://github.com/gabdorf/gabriel-adorf-portfolio). Special thanks to [@gabdorf](https://twitter.com/gabdorf)!
