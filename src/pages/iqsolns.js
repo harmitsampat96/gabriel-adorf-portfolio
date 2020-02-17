@@ -14,12 +14,12 @@ import FullSizeImage from 'components/article/fullsizeimage'
 
 import CoverSrc from 'img/articles/iqsolns/iq-cover.jpg'
 import IQ01 from 'img/articles/iqsolns/iq_01.jpg'
-import IQ02 from 'img/articles/iqsolns/iq_02.jpg'
+// import IQ02 from 'img/articles/iqsolns/iq_02.jpg'
 import IQ03 from 'img/articles/iqsolns/iq_03.jpg'
 import IQ04 from 'img/articles/iqsolns/iq_04.jpg'
 import IQ05 from 'img/articles/iqsolns/iq_05.jpg'
 import IQ06 from 'img/articles/iqsolns/iq_06.jpg'
-import IQ07 from 'img/articles/iqsolns/iq_07.jpg'
+// import IQ07 from 'img/articles/iqsolns/iq_07.jpg'
 
 const Section = styled.section`
   margin: 64px 0;
@@ -292,12 +292,10 @@ function IQSolns() {
       </Section>
       <ImageGrid>
         <Img src={IQ01} />
-        <Img src={IQ02} />
         <Img src={IQ03} />
         <Img src={IQ04} />
         <Img src={IQ05} />
         <Img src={IQ06} />
-        <Img src={IQ07} />
       </ImageGrid>
       <Footer />
     </GlobalWrapper>
