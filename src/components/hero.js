@@ -117,9 +117,9 @@ const Co = styled.span`
   font-family: IBMPlexMono;
 `
 
-const Spacer = styled.div`
+/*const Spacer = styled.div`
   flex: 1 1 0;
-`
+`*/
 
 // const GearValues = styled.div`
 //   display: flex;

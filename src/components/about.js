@@ -8,7 +8,7 @@ import { color, fontSize } from 'styles/theme'
 import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
 
-const Big = styled.span`
+/*const Big = styled.span`
   font-size: ${fontSize.f6};
   color: ${color.grey900};
   font-weight: 700;
@@ -21,7 +21,7 @@ const Big = styled.span`
   ${media.sm`
     font-size: ${fontSize.f5};
   `}
-`
+`*/
 
 const Button = styled.a`
   font-size: ${fontSize.f4};

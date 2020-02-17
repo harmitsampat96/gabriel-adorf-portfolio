@@ -5,7 +5,7 @@ import media from 'utils/media-queries'
 
 import { color } from 'styles/theme'
 
-import Header from 'components/header'
+/*import Header from 'components/header'*/
 import Icon from 'components/icons'
 
 import HSLogo from 'img/brand_lt.svg'
@@ -29,7 +29,7 @@ const TitleBar = styled.div`
   `}
 `
 
-const TitleBar_sm = styled.div`
+const TitleBarSmall = styled.div`
   display: none;
   justify-content: space-between;
   flex-direction: row;
@@ -111,14 +111,14 @@ function ArticleHeader(props) {
           </Title>
         </LogoWrapper>
       </TitleBar>
-      <TitleBar_sm id="foo">
+      <TitleBarSmall id="foo">
         <BackArrow to="/#projects">
           <Icon glyph="arrow" size={32} />
         </BackArrow>
         <Title>
           <h2 id="white">{props.title}</h2>
         </Title>
-      </TitleBar_sm>
+      </TitleBarSmall>
 
     </Fragment>
   )

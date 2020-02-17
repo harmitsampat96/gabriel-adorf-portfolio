@@ -4,7 +4,6 @@ import TwoColumns from 'components/twoColumns'
 import Project from 'components/project'
 import SectionHeading from 'components/sectionHeading'
 
-import ScenographicsLogo from 'img/scenographicslogo'
 import MapsLogo from 'img/maps.png'
 
 const MapsLink = (

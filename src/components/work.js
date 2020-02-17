@@ -5,11 +5,6 @@ import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
 import Project from 'components/project'
 
-import KellerkindLogo from 'img/kellerkindlogo'
-import PalettteAppLogo from 'img/palettteapplogo'
-import LifeTimeLogo from 'img/lifetimelogo'
-import BamLogo from 'img/bamlogo'
-
 import GoCanvasLogo from 'img/gocanvas.png'
 import iqSolnLogo from 'img/iqsoln.jpg'
 import MixTapeLogo from 'img/spotify.jpg'

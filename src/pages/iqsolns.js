@@ -11,7 +11,6 @@ import CoverImage from 'components/article/coverimage'
 import ContentWrapper from 'components/article/contentwrapper'
 import Footer from 'components/footer'
 import FullSizeImage from 'components/article/fullsizeimage'
-import TwoColumns from 'components/twoColumns'
 
 import CoverSrc from 'img/articles/iqsolns/iq-cover.jpg'
 import IQ01 from 'img/articles/iqsolns/iq_01.jpg'

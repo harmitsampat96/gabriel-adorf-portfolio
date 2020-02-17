@@ -15,7 +15,7 @@ class GlobalWrapper extends React.Component {
 
   handleKeyboardInput(e) {
     const key = e.keyCode || e.charCode
-    // Tab
+    
     if (key === 9) {
       this.setState({ displayOutlines: true })
     }
@@ -38,7 +38,6 @@ class GlobalWrapper extends React.Component {
           <meta property="og:url" content="https://harmitsampat.com" />
           <meta property="og:title" content="Harmit Sampat" />
 
-          // 
           <meta name="theme-color" content="#ffffff" />
         </Helmet>
         <GlobalStyle displayOutlines={this.state.displayOutlines} />
