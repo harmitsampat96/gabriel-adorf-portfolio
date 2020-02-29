@@ -94,11 +94,6 @@ const Img = styled.img`
   `}
 `
 
-const Border = {border: none};
-const Width = 800;
-const Height = 450;
-const iframeSrc = '"https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FATCJXrVQOpN2xYPeVi6GtT%2FFinal-Interfaces%3Fnode-id%3D8%253A2';
-
 function GoCanvas() {
   return (
     <GlobalWrapper>
@@ -109,7 +104,6 @@ function GoCanvas() {
       <CoverImage src={CoverSrc} focusX={'35%'} focusY={'50%'} />
       <Section>
         <ContentWrapper>
-          <iframe style={Border} width={Width} height={Height} src={iframeSrc} allowfullscreen></iframe>
         </ContentWrapper>
       </Section>
       <ImageGrid>
