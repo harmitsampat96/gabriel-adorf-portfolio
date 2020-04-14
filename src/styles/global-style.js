@@ -186,16 +186,19 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
   }
 
   code {
-    background: ${color.grey200};
-    border-radius: 4px;
-    border: 1px solid ${color.grey400};
-    padding: 1px 4px;
+    font-family: 'IBMPlexMono';
+    color: #1CE783;
+    background: ${color.grey800};
+    border-radius: 6px;
+    border: 2px solid ${color.grey700};
+    padding: 1px 6px;
     margin: 0 3px;
-    font-size: ${fontSize.f3};
+    font-size: ${fontSize.f8};
     ${media.lg`
-      font-size: ${fontSize.f2};
+      font-size: ${fontSize.f6};
     `}
   }
+
 `
 
 export default GlobalStyle

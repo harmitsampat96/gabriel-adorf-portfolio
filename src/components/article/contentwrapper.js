@@ -14,7 +14,7 @@ const Content = styled.div`
   p + h3 {
     margin-top: 42px;
   }
-  padding: 56px 24px 26px 24px;
+  padding: 0px 24px 26px 24px;
   ${media.lg`
     padding: 24px 24px 26px 24px;
   `}

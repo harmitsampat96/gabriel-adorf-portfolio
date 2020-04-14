@@ -195,6 +195,7 @@ class Header extends React.Component {
             <a href="/"><img src={HSLogo} height="88px" alt="Logo" /></a>
           </SvgWrapper>
         </LogoWrapper>
+        
         <div>
           <SocialLinks article={this.props.article}>
             <SocialLink

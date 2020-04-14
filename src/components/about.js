@@ -42,9 +42,11 @@ function About() {
           </p>
           
           <p>
-            I'm now looking for <b>UX Design & Research</b> internship opportunities - Summer 2020. 
-            If you'd like to get in touch or see more of my work please contact me at <Link to="mailto:harmitsampat@gmail.com">harmitsampat@gmail.com</Link>. Also, feel
-            free to connect with me on <Link to="https://www.linkedin.com/in/harmitsampat96/">LinkedIn</Link>.
+            <i><b>I'm now looking for UX/Product design internship opportunities - Summer 2020</b></i>
+          </p>
+          <p> 
+            If you'd like to get in touch or see more of my work please contact me at <Link to="mailto:harmitsampat@gmail.com">harmitsampat@gmail.com</Link> </p><p> Also, feel
+            free to connect with me on <Link to="https://www.linkedin.com/in/harmitsampat96/">LinkedIn</Link>
           </p>
           <Button href="https://drive.google.com/file/d/1V3uvj7lw2Q2WQ3QdJvw17tEud4A0K-oa/view?usp=sharing">🗎 View Resume</Button>
           

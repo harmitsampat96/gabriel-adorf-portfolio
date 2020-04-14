@@ -24,7 +24,7 @@ const HeroSection = styled.section`
 
 const HeroText = styled.div`
   text-align: left;
-  font-size: ${fontSize.f10};
+  font-size: ${fontSize.f9};
   color: ${color.grey900};
   font-weight: normal;
   letter-spacing: -0.4px;
@@ -34,7 +34,7 @@ const HeroText = styled.div`
   `}
   ${media.sm`
     text-align: left;
-    font-size: ${fontSize.f8};
+    font-size: ${fontSize.f6};
   `}
 `
 
@@ -50,14 +50,14 @@ const Big = styled.span`
     letter-spacing: -0.3px;
   `}
   ${media.sm`
-    font-size: ${fontSize.f10};
+    font-size: ${fontSize.f8};
   `}
 `
 
 const SocialLinks = styled.div`
   display: grid;
   grid-column-gap: 4px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 15px 24px 0 0;
   ${media.sm`
     padding: ${props => (props.article ? '15px 12px 0 8px' : '4px 0 0 0')};
@@ -76,7 +76,7 @@ const SocialLink = styled.a`
   width: 40px;
   height: 40px;
   background: ${color.red500};
-  border-radius: 20px;
+  
   color: #000;
   border: 1px solid ${color.red500};
   &:hover {
@@ -90,6 +90,29 @@ const SocialLink = styled.a`
   &:visited {
     color: #000;
   }
+`
+
+const Work = styled.a`
+  padding: 24px 24px 0 0;
+  display: flex;
+  text-shadow: none;
+  //justify-content: flex-end;
+  align-items: center;
+  color: #000;
+  border: 1px solid ${color.red500};
+  &:hover {
+    border: 1px solid ${color.red500};
+    background: ${color.red500};
+    color: ${color.ltblue500};
+  }
+  &:active {
+    color: ${color.ltblue500};
+  }
+  
+  ${media.sm`
+    justify-content: center;
+    padding-top: 6px;
+  `}
 `
 
 export const SvgWrapper = styled.div`
@@ -155,7 +178,7 @@ class Hero extends React.Component {
         <Header />
         <Section>
           <HeroText>
-            <Big>Hi! I'm Harmit</Big><br/> a Human-Computer Interaction student with a focus on UX Design & Research. I <De>design</De> and <Co>code</Co> digital solutions that are useful and elegant.
+            <Big>Hi! I'm Harmit</Big><br/> a Human-Computer Interaction student with a focus on Product Design & User Research. I design and code digital solutions that are useful and elegant.
           </HeroText>
             <SocialLinks article={this.props.article}>
               <SocialLink
@@ -178,8 +201,30 @@ class Hero extends React.Component {
                   </InlineSvg>
                 </SvgWrapper>
               </SocialLink>
+              <SocialLink
+                href="https://dribbble.com/harmitsampat"
+                target="blank"
+              >
+                <SvgWrapper>
+                  <InlineSvg>
+                    <path d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z"/>
+                  </InlineSvg>
+                </SvgWrapper>
+              </SocialLink>
+              <SocialLink
+                href="https://medium.com/@harmitsampat"
+                target="blank"
+              >
+                <SvgWrapper>
+                  <InlineSvg>
+                    <path d="M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z"/>
+                  </InlineSvg>
+                </SvgWrapper>
+              </SocialLink>              
             </SocialLinks>
+            <Work href="/#projects">Selected works ↓</Work>
         </Section>
+        
         {/* <GearValues>
           {this.state.gearA} | {this.state.gearB} | {this.state.ratio}
         </GearValues> */}
