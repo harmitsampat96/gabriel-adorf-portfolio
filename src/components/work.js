@@ -5,13 +5,15 @@ import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
 import Project from 'components/project'
 
+import VisualDesignLogo from 'img/visualdesign.png'
 import GoCanvasLogo from 'img/gocanvas.png'
 import iqSolnLogo from 'img/iqsoln.jpg'
 import KJSCELiveLogo from 'img/kjscelive.png'
 
-const GoCanvasLink = <Link to="/gocanvas">Read More →</Link>
-const IQSolnLink = <Link to="/iqsolns">Read More →</Link>
-const KJSCELiveLink = <a href="https://drive.google.com/file/d/19rzaiyQ0BlkqEv9AqLth8jIjzfXQbaya/view">Read More →</a>
+const VisualDesignLink = <Link to="/visualdesign">View More →</Link>
+const GoCanvasLink = <Link to="/gocanvas">View More →</Link>
+const IQSolnLink = <Link to="/iqsolns">View More →</Link>
+const KJSCELiveLink = <a href="https://drive.google.com/file/d/19rzaiyQ0BlkqEv9AqLth8jIjzfXQbaya/view">View More →</a>
 
 function Work() {
   return (
@@ -20,6 +22,12 @@ function Work() {
       leftColumn={<SectionHeading>W0rk</SectionHeading>}
       rightColumn={
         <Fragment>
+          <Project
+            logo={VisualDesignLogo}
+            title="Visual Design Studio"
+            abstract="Workflow & Dispatch interface usability testing."
+            link={VisualDesignLink}
+          />
           <Project
             logo={GoCanvasLogo}
             title="GoCanvas"

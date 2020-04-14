@@ -11,6 +11,7 @@ const Div = styled.div`
   max-width: 75%;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
   ${media.md`
     grid-template-columns: auto;
     justify-content: center;
@@ -18,7 +19,6 @@ const Div = styled.div`
 `
 
 const LeftColumn = styled.div`
-  margin-top: 60px;
 `
 
 const RightColumn = styled.div`
