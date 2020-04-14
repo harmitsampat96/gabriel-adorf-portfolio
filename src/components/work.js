@@ -25,7 +25,6 @@ function Work() {
           <Project
             logo={VisualDesignLogo}
             title="Visual Design Studio"
-            abstract="Workflow & Dispatch interface usability testing."
             link={VisualDesignLink}
           />
           <Project
