@@ -197,7 +197,7 @@ function VisualDesign() {
                   
           leftColumn={
             <Fragment>
-            <iframe height="360" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6KwVVlxffKE3dM4vjGrkgW%2FStudio-Project-2-Apple-watch-prototype-Copy%3Fnode-id%3D4%253A0%26viewport%3D710%252C224%252C0.44839680194854736%26scaling%3Dscale-down" allowfullscreen></iframe>
+            <iframe height="360" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6KwVVlxffKE3dM4vjGrkgW%2FStudio-Project-2-Apple-watch-prototype-Copy%3Fnode-id%3D4%253A0%26viewport%3D519%252C180%252C0.3386773467063904%26scaling%3Dscale-down" allowfullscreen></iframe>
             <center>Figma Prototype: Apple Watch</center>
             </Fragment>
           }

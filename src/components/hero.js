@@ -11,14 +11,14 @@ import { fontSize } from 'styles/theme'
 import { color } from 'styles/theme'
 
 const HeroSection = styled.section`
-  height: 100vh;
-  max-height: 100vh;
+  //height: 100vh;
+  //max-height: 100vh;
   display: flex;
   flex-direction: column;
   overflow: visible;
   width: 100%;
   ${media.sm`
-    height: calc(150vh - 76px);
+    //height: calc(150vh - 76px);
   `}
 `
 
