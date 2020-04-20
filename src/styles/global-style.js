@@ -169,7 +169,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
       color: ${color.red500};
     }
     &:active {
-      color: ${color.ltblue500};
+      color: ${color.red500};
     }
     &:hover {
       color: #fab1a0;
