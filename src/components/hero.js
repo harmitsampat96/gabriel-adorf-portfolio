@@ -98,15 +98,15 @@ const Work = styled.a`
   text-shadow: none;
   //justify-content: flex-end;
   align-items: center;
-  color: #000;
+  color: ${color.red500};
   border: 1px solid #2d3436;
   &:hover {
     border: 1px solid #2d3436;
     background: #2d3436};
-    color: ${color.ltblue500};
+    color: #fab1a0;
   }
   &:active {
-    color: ${color.ltblue500};
+    color: ${color.red500};
   }
   
   ${media.sm`
