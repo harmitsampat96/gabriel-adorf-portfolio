@@ -149,7 +149,7 @@ function VisualDesign() {
           
           leftColumn={
             <Fragment>
-            <iframe width="800" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ffxf5kufjGMHsuc9rlw7m1t%2Fnike_redesign_harmit_final-Copy%3Fnode-id%3D0%253A6255%26viewport%3D396%252C159%252C0.2954770624637604%26scaling%3Dscale-down" allowfullscreen></iframe>
+            <iframe height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ffxf5kufjGMHsuc9rlw7m1t%2Fnike_redesign_harmit_final-Copy%3Fnode-id%3D0%253A6255%26viewport%3D396%252C159%252C0.2954770624637604%26scaling%3Dscale-down" allowfullscreen></iframe>
             <center>Figma Prototype: Mobile</center>
             </Fragment>
           }
@@ -197,7 +197,7 @@ function VisualDesign() {
                   
           leftColumn={
             <Fragment>
-            <iframe width="800" height="360" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6KwVVlxffKE3dM4vjGrkgW%2FStudio-Project-2-Apple-watch-prototype-Copy%3Fnode-id%3D4%253A0%26viewport%3D710%252C224%252C0.44839680194854736%26scaling%3Dscale-down" allowfullscreen></iframe>
+            <iframe height="360" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6KwVVlxffKE3dM4vjGrkgW%2FStudio-Project-2-Apple-watch-prototype-Copy%3Fnode-id%3D4%253A0%26viewport%3D710%252C224%252C0.44839680194854736%26scaling%3Dscale-down" allowfullscreen></iframe>
             <center>Figma Prototype: Apple Watch</center>
             </Fragment>
           }
@@ -235,7 +235,7 @@ function VisualDesign() {
           />
           </ContentWrapper>
         </TextGrid>
-        <iframe width="1280" height="720" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Frau5kMhlLmrqzXNFNwoM0M%2FStudio-Project-2-main%3Fnode-id%3D93%253A277%26viewport%3D-661%252C-34%252C0.04495549201965332%26scaling%3Dcontain" allowfullscreen></iframe>
+        <iframe width="1280" height="720" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FrGya6WPP6VeeK8gzuo07MI%2FStudio-Project-2-main-Copy%3Fnode-id%3D93%253A277%26viewport%3D-3509%252C-1008%252C0.1022816002368927%26scaling%3Dscale-down" allowfullscreen></iframe>
         <p>Figma Prototype: TV screen</p>
         </ImageGrid>
       </Section>

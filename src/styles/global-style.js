@@ -199,6 +199,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
     `}
   }
 
+  iframe {
+    border: none;
+  }
+
 `
 
 export default GlobalStyle
