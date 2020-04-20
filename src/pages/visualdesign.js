@@ -9,7 +9,7 @@ import { color, fontSize } from 'styles/theme'
 import GlobalWrapper from 'components/global-wrapper'
 import media from 'utils/media-queries'
 
-import Header from 'components/article/header'
+import Header from 'components/header'
 import CoverImage from 'components/article/coverimage'
 import ContentWrapper from 'components/article/contentwrapper'
 import Footer from 'components/footer'
@@ -79,7 +79,7 @@ const iframeContainer = styled.div`
 `
 
 const ImageGrid = styled.div`
-  background: #f2f2f2;
+  background: #0003;
   max-width: 100%;
   padding: 40px;
   margin: 32px 0;
@@ -98,7 +98,7 @@ const ImageGrid = styled.div`
 `
 
 const TextGrid = styled.div`
-  background: #f2f2f2;
+  //background: #0003;
   max-width: 100%;
   padding: 40px;
   margin: 32px 0;
@@ -140,9 +140,7 @@ const Img = styled.img`
 function VisualDesign() {
   return (
     <GlobalWrapper>
-      <Helmet>
-        <style>{'body { background-color: white; color: black; } h1, h2 {font-weight: 700} h1, h2, h3, h4 { color: black; } #foo {background-color: black} #white {color: white; background-color: black;} iframe{border: none;}'}</style>
-      </Helmet>
+      
       <Header title="Visual Design Studio" />
       
       <Section>

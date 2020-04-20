@@ -9,7 +9,7 @@ const Div = styled.div`
   grid-column-gap: 40px;
   justify-content: space-between;
   width: 100%;
-  background: #f2f2f2;
+  //background: #0001;
   ${media.md`
     grid-template-columns: auto;
     justify-content: center;

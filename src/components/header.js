@@ -5,7 +5,7 @@ import { color, fontSize } from 'styles/theme'
 
 import Icon from 'components/icons'
 
-import HSLogo from 'img/brand.svg'
+import HSLogo from 'img/brand_lt.svg'
 
 const Div = styled.div`
   display: flex;
@@ -99,20 +99,20 @@ const SocialLink = styled.a`
   align-items: center;
   width: 40px;
   height: 40px;
-  background: ${color.red500};
+  //background: ${color.red500};
   border-radius: 20px;
-  color: ${color.red900};
-  border: 1px solid ${color.red500};
+  color: #636e72;
+  //border: 1px solid ${color.red500};
   &:hover {
-    border: 1px solid ${color.red500};
-    background: ${color.red500};
-    color: ${color.ltblue500};
+    //border: 1px solid ${color.red500};
+    //background: ${color.red500};
+    color: ${color.red500};
   }
   &:active {
     color: ${color.ltblue500};
   }
   &:visited {
-    color: ${color.red900};
+    color: ${color.red500};
   }
 `
 
@@ -137,7 +137,7 @@ const Tooltip = styled.div`
   font-family: IBMPlexMono;
   padding: 2px 24px 0 24px;
   display: flex;
-  color: white;
+  color: #b2bec3;
   justify-content: flex-end;
   align-items: center;
   opacity: ${props => (props.visible ? '1' : '0')};
@@ -149,6 +149,7 @@ const Tooltip = styled.div`
 `
 
 const TooltipIcon = styled.div`
+  color: #b2bec3;
   transform: rotate(270deg);
   margin-left: 8px;
 `

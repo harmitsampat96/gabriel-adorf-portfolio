@@ -6,7 +6,7 @@ import { color, fontSize } from 'styles/theme'
 import GlobalWrapper from 'components/global-wrapper'
 import media from 'utils/media-queries'
 
-import Header from 'components/article/header'
+import Header from 'components/header'
 import CoverImage from 'components/article/coverimage'
 import ContentWrapper from 'components/article/contentwrapper'
 import Footer from 'components/footer'
@@ -55,7 +55,7 @@ const Video = styled.iframe`
 `
 
 const ImageGrid = styled.div`
-  background: #f2f2f2;
+  background: #0003;
   max-width: 100%;
   padding: 40px;
   margin: 32px 0;
@@ -97,10 +97,8 @@ const Img = styled.img`
 function IQSolns() {
   return (
     <GlobalWrapper>
-      <Helmet>
-        <style>{'body { background-color: white; color: black; } h1, h2 {font-weight: 700} h1, h2, h3, h4 { color: black; } #foo {background-color: black} #white {color: white; background-color: black;}'}</style>
-      </Helmet>
-      <Header title="IQ Solutions" />
+      
+      <Header />
       <CoverImage src={CoverSrc} focusX={'35%'} focusY={'50%'} />
       <Section>
         <ContentWrapper>

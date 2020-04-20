@@ -63,7 +63,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
     font-family: 'IBMPlexSans', system-ui, sans-serif;
     height: 100%;
     color: white;
-    background: ${color.red500};
+    background: #2d3436;
     font-feature-settings: "liga","kern";
     font-variant-ligatures: contextual common-ligatures;
     font-kerning: normal;
@@ -162,18 +162,18 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
   }
 
   a {
-    color: ${color.red900};
+    color: ${color.red500};
     text-decoration: none;
     font-weight: 600;
     &:visited {
-      color: ${color.red900};
+      color: ${color.red500};
     }
     &:active {
       color: ${color.ltblue500};
     }
     &:hover {
-      color: ${color.ltblue500};
-      text-shadow: 2px 2px ${color.red900};
+      color: #fab1a0;
+      //text-shadow: 2px 2px ${color.red900};
     }
     :focus {
       outline: ${props => (props.displayOutlines ? '' : 'none')};

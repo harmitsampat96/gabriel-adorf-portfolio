@@ -7,7 +7,7 @@ import { color } from 'styles/theme'
 const size = 150
 
 const Image = styled.div`
-  background: ${color.red500};
+  //background: ${color.red500};
   flex: 0 0 ${size}px;
   height: ${size}px;
   margin-right: 40px;

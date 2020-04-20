@@ -25,7 +25,7 @@ const HeroSection = styled.section`
 const HeroText = styled.div`
   text-align: left;
   font-size: ${fontSize.f9};
-  color: ${color.grey900};
+  color: #dfe6e9;
   font-weight: normal;
   letter-spacing: -0.4px;
   line-height: 1.20;
@@ -41,7 +41,7 @@ const HeroText = styled.div`
 const Big = styled.span`
   font-face: IBMPlexSans;
   font-size: ${fontSize.f12};
-  color: ${color.grey900};
+  color: #dfe6e9;
   font-weight: 700;
   letter-spacing: -0.4px;
   line-height: 1.00;
@@ -58,7 +58,7 @@ const SocialLinks = styled.div`
   display: grid;
   grid-column-gap: 4px;
   grid-template-columns: auto auto auto auto;
-  padding: 15px 24px 0 0;
+  padding: 15px 24px 15px 0;
   ${media.sm`
     padding: ${props => (props.article ? '15px 12px 0 8px' : '4px 0 0 0')};
     grid-column-gap: 0;
@@ -75,13 +75,13 @@ const SocialLink = styled.a`
   align-items: center;
   width: 40px;
   height: 40px;
-  background: ${color.red500};
+  background: #2d3436;
   
-  color: #000;
-  border: 1px solid ${color.red500};
+  color: #636e72;
+  border: 1px solid #2d3436;
   &:hover {
-    border: 1px solid ${color.red500};
-    background: ${color.red500};
+    border: 1px solid #2d3436;
+    background: #2d3436;
     color: ${color.ltblue500};
   }
   &:active {
@@ -93,16 +93,16 @@ const SocialLink = styled.a`
 `
 
 const Work = styled.a`
-  padding: 24px 24px 0 0;
-  display: flex;
+  padding: 0px 0px 0 0;
+  //display: block;
   text-shadow: none;
   //justify-content: flex-end;
   align-items: center;
   color: #000;
-  border: 1px solid ${color.red500};
+  border: 1px solid #2d3436;
   &:hover {
-    border: 1px solid ${color.red500};
-    background: ${color.red500};
+    border: 1px solid #2d3436;
+    background: #2d3436};
     color: ${color.ltblue500};
   }
   &:active {

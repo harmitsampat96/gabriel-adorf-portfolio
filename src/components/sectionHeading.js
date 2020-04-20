@@ -4,11 +4,11 @@ import media from 'utils/media-queries'
 import { color, fontSize } from 'styles/theme'
 
 const H2 = styled.h2`
-  border-top: 2px solid ${color.grey900};
+  border-top: 2px solid #636e72;
   display: inline-block;
   font-family: IBMPlexMono;
   font-size: ${fontSize.f5};
-  color: ${color.grey900};
+  color: #636e72;
   letter-spacing: 5px;
   text-transform: uppercase;
   font-weight: 700;
@@ -24,7 +24,7 @@ const H2 = styled.h2`
       border-top: none;
       margin-bottom: 72px;
       padding-bottom: 12px;
-      border-bottom: 2px solid ${color.grey900};
+      border-bottom: 2px solid #636e72;
     `}
   ${media.sm`
       margin-bottom: 60px;
