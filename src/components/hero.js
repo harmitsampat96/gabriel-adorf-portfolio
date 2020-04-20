@@ -103,7 +103,7 @@ const Work = styled.a`
   &:hover {
     border: 1px solid #2d3436;
     background: #2d3436};
-    color: #fab1a0;
+    color: ${color.red500};
   }
   &:active {
     color: ${color.red500};
