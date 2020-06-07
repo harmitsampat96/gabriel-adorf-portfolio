@@ -27,12 +27,12 @@ function Work() {
             title="Visual Design Studio"
             link={VisualDesignLink}
           />
-          <Project
+          /*<Project
             logo={GoCanvasLogo}
             title="GoCanvas"
             abstract="Workflow & Dispatch interface usability testing."
             link={GoCanvasLink}
-          />
+          />*/
           <Project
             logo={iqSolnLogo}
             title="iQ Solutions"
